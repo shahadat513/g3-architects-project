@@ -21,17 +21,17 @@
     cursor: pointer;
 }
 
+.section-title {
+    color: rgb(19, 19, 19);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
 /* Header style */
 
 header {
     background: rgba(255, 144, 14, 0.1);
     padding: 50px 250px;
-}
-
-.nav-title {
-    color: rgb(19, 19, 19);
-    font-size: 3rem;
-    font-weight: 700;
 }
 
 nav {

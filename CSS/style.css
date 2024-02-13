@@ -71,7 +71,7 @@ nav ul li a {
     font-size: 1rem;
 }
 
-.banner img{
+.banner img {
     margin-top: 20px;
     width: 100%;
 }
@@ -79,18 +79,59 @@ nav ul li a {
 /* Responsive Style */
 
 /* Mobile device  */
-@media screen and (max-width: 576px){
-    header{
+@media screen and (max-width: 576px) {
+    header {
         padding: 20px;
     }
-    nav{
+
+    nav {
         flex-direction: column;
     }
 }
 
 /* Tablet device */
-@media screen and (min-width: 576px) and (max-width:960px){
-    header{
+@media screen and (min-width: 576px) and (max-width:960px) {
+    header {
         padding: 50px;
     }
+}
+
+/* Mian Style */
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Teams Style */
+.teams-container {
+    display: flex;
+    align-items: center;
+}
+
+.teams-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.teams-content {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.teams-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.first-span{
+    color: rgb(114, 114, 114);
+    font-weight: 500;
+}
+.second-span{
+
+}
+.third-span{
+    color: rgb(255, 144, 14);
+    font-weight: 700;
 }
